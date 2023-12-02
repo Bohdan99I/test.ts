@@ -1,12 +1,14 @@
 {
-  "name": "test.ts",
+  "name": "courses_ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.2.1"
+  }
 }
