@@ -47,7 +47,6 @@ interface MixedDictionary {
 //   edition: "second",
 // };
 
-
 // Generic
 
 // function reverse<T>(items: T[]): T[] {
